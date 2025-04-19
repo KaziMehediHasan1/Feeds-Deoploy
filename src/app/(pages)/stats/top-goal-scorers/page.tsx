@@ -15,7 +15,7 @@ const TopGoalScorers = () => {
           <div className="w-[65%] bg-white">
             <Heading
               heading="Latest Transfers"
-              className="bg-[var(--color-primary)]"
+              className="text-yellow-400 bg-black"
             />
             <Filtering
               Data={[
@@ -140,7 +140,6 @@ const TopGoalScorers = () => {
                     name: "Ali",
                     position: "Striker",
                   },
-               
                 ],
                 [
                   {
@@ -161,7 +160,7 @@ const TopGoalScorers = () => {
           <div className="w-[35%]">
             <Heading
               heading="Latest Transfers"
-              className="bg-[var(--color-primary)]"
+              className="text-yellow-400 bg-black"
             />
           </div>
         </div>

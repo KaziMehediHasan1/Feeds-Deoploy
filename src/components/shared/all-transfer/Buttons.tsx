@@ -14,21 +14,21 @@ const Buttons = (props: TButton) => {
         <div className="flex item-center ">
           {props.buttonOne && (
             <button
-              className={`px-4 text-sm py-2 bg-[var(--color-primary)] cursor-pointer ${props.class}`}
+              className={`px-4 text-sm py-2 text-[var(--color-primary)] bg-black cursor-pointer ${props.class}`}
             >
               {props.buttonOne}
             </button>
           )}
           {props.buttonTwo && (
             <button
-              className={`px-4 text-sm py-2 bg-[var(--color-primary)] border-l-1 border-gray-500 cursor-pointer ${props.class}`}
+              className={`px-4 text-sm py-2 text-[var(--color-primary)] bg-black border-l-1 border-gray-500 cursor-pointer ${props.class}`}
             >
               {props.buttonTwo}
             </button>
           )}
           {props.buttonThree && (
             <button
-              className={`px-4 text-sm py-2 bg-[var(--color-primary)] cursor-pointer ${props.class}`}
+              className={`px-4 text-sm py-2 bg-black text-[var(--color-primary)] cursor-pointer ${props.class}`}
             >
               {props.buttonThree}
             </button>
